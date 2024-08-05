@@ -15,4 +15,8 @@ public class Usage {
     private long completionTokens;
     @JsonProperty("total_tokens")
     private long totalTokens;
+
+    @JsonProperty("prompt_cache_hit_tokens")
+    private long promptCacheHitTokens;
+
 }
