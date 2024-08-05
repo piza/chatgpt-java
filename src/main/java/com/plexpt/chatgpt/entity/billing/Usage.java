@@ -19,4 +19,7 @@ public class Usage {
     @JsonProperty("prompt_cache_hit_tokens")
     private long promptCacheHitTokens;
 
+    @JsonProperty("prompt_cache_miss_tokens")
+    private long promptCacheMissTokens;
+
 }
